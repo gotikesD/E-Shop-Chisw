@@ -1,0 +1,6 @@
+{"_id":{"$oid":"56fcff11416f696e1de69053"},"title":"Electr","__v":0}
+{"_id":{"$oid":"56fcff11416f696e1de69054"},"title":"Phone","__v":0,"parent":{"$oid":"56fcff11416f696e1de69053"},"tree":{"$oid":"56fcff11416f696e1de69053"}}
+{"_id":{"$oid":"56fcff11416f696e1de69055"},"title":"Charger","__v":0,"parent":{"$oid":"56fcff11416f696e1de69053"},"tree":{"$oid":"56fcff11416f696e1de69053"}}
+{"_id":{"$oid":"56fcff11416f696e1de69056"},"title":"Modern","__v":0,"parent":{"$oid":"56fcff11416f696e1de69057"},"tree":{"$oid":"56fcff11416f696e1de69057"}}
+{"_id":{"$oid":"56fcff11416f696e1de69057"},"title":"Stuff","__v":0}
+{"_id":{"$oid":"56fcff11416f696e1de69058"},"title":"Laptop","__v":0,"parent":{"$oid":"56fcff11416f696e1de69056"},"tree":[{"$oid":"56fcff11416f696e1de69057"},{"$oid":"56fcff11416f696e1de69056"}]}

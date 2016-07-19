@@ -1,0 +1,22 @@
+{
+  "name": "280316_shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "joi": "^8.0.5",
+    "lodash": "^4.6.1",
+    "mongoose": "^4.4.10",
+    "morgan": "^1.7.0",
+    "request": "^2.69.0",
+    "status-errors": "0.0.2"
+  }
+}

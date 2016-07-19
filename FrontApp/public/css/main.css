@@ -1,0 +1,467 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td,
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+dl, dt, dd, ol, ul, li, fieldset, label, legend {
+    vertical-align: baseline;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+a {
+    text-decoration: none !important;
+}
+body {
+    background: white;
+    line-height: 1;
+    color: black;
+}
+ol, ul {
+    list-style: none;
+}
+/* tables still need cellspacing="0" in the markup */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+
+blockquote, q {
+    quotes: "" "";
+}
+
+body {
+    background: url("../img/mainBG.jpg");
+
+}
+
+.logo {
+    font-size: 0 !important;
+    display: block;
+    background: url("../img/logo.png");
+    width: 50px;
+    height: 30px;
+    background-size: contain;
+    margin: 30% 15% 0 20%;
+}
+.navbar-collapse .navbar-nav {
+    margin-left: 5%;
+}
+.navbar-collapse .or {
+    display: inline-block;
+    margin: 0 10px 0 10px;
+}
+.navbar-collapse .form-inline {
+    padding-top: 8px;
+    float: right;
+}
+.navbar-collapse .form-inline input {
+    margin: 0 10px;
+}
+#resp-menu .navbar-nav a
+{
+    color: #449d44 !important;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+#resp-menu .form-inline {
+    color: #449d44;
+}
+#resp-menu .form-inline-display-none {
+    color: #449d44;
+    display: none;
+}
+#resp-menu .products-category a {
+    display: block;
+    font-size: 12px;
+    line-height:40px;
+    transition: all linear 0.3s;
+    text-decoration: none;
+    text-align: center;
+}
+#resp-menu .products-category a:hover {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#social-login {
+    display : block;
+    width: 30%;
+    float: right;
+    text-align: right;
+    overflow: hidden;
+}
+#social-login ul {
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px 0 0 5px;
+}
+#social-login span {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #2e6da4;
+}
+#social-login ul li {
+    float: right;
+    margin-right : 3px;
+}
+
+#social-login ul li a {
+    display: block;
+    width: 15px;
+    height: 15px;
+
+    font-size: 0;
+}
+
+#social-login ul li a.facebook {
+    background: url("../img/social/facebook.png");
+    background-size: cover;
+}
+#social-login ul li a.google {
+    background: url("../img/social/google.png");
+    background-size: cover;
+}
+#social-login ul li a.twitter {
+    background: url("../img/social/twitter.png");
+    background-size: cover;
+}
+
+
+main {
+    overflow: hidden;
+    margin-top: 30px;
+}
+aside {
+    width: 30%;
+    float: left;
+
+}
+aside h3 {
+    color: #2e6da4;
+}
+aside li {
+    display: block;
+    font-size: 18px;
+    line-height:50px;
+    font-weight: bold;
+    border: 1px solid #2e6da4;
+    margin: 5px;
+    padding-left: 5%;
+    border-radius: 5px;
+    transition: all linear 0.3s;
+}
+
+aside li:hover {
+    text-decoration: none;
+    border: 1px solid #00B7FF;
+    border-radius: 20px;
+    display: block;
+}
+aside li .topic {
+    display: block;
+    transition: all linear 0.3s;
+}
+aside li .subCategoryItem {
+    transition: all linear 0.3s;
+}
+
+aside li div ul {
+    color: #2e6da4;
+    display: none;
+}
+
+aside li:hover > div > ul {
+    color: #2e6da4;
+    display: block;
+}
+
+aside li div:hover,
+aside li a:hover {
+    color: #00B7FF;
+    display: block;
+}
+
+main {
+    overflow: hidden;
+    margin-bottom: 50px;
+
+}
+#content {
+    padding-left: 20px;
+    float: left;
+    border-left: 1px solid #9d9d9d;
+    width: 70%;
+    position: relative;
+}
+
+#content .search {
+    height: 100px;
+    display: block;
+    transition: all linear 1s;
+}
+
+#content .search-hidden {
+    display: none;
+}
+
+.search h4 {
+    color: #2e6da4;
+    text-transform: uppercase;
+}
+.search .logged-info {
+    display: block;
+    color: #2e6da4;
+    text-transform: lowercase;
+    margin-bottom: 10px;
+}
+
+.search .search-form {
+    float: left;
+}
+.search-form .form-group  input{
+    width: 100px;
+    margin-right: 10px;
+}
+
+.search-form .form-group #title,
+.search-form .form-group #description
+{
+    width: 200px;
+}
+
+#products-main {
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+#products-main  .product {
+    float: left;
+    width: 23%;
+    height: 400px;
+    margin-right: 2%;
+}
+
+#products-main  .product .product_img  {
+    display: block;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+}
+#products-main  .product .product_title,
+#products-main  .product .product_price
+{
+    display: block;
+
+}
+
+#products-main  .product .detail {
+    font-size: 16px;
+    color : #008080;
+    display: block;
+    transition: all linear 0.3s;
+    text-decoration: none;
+    padding-left: 10px;
+}
+#products-main  .product .detailProduct {
+    overflow: hidden;
+}
+
+#products-main  .product .detail:hover {
+    color : #1b6d85;
+    transform: scale(1.1);
+}
+.detailProduct {
+    width: 100%;
+    overflow: hidden;
+}
+.detailProduct img {
+    float: left;
+}
+.detailProduct .detail {
+    float: left;
+    width: 50%;
+    margin-left: 5%;
+}
+.detailProduct div span {
+    display: inline-block;
+    font-size: 18px;
+    line-height:50px;
+    color : #00B7FF;
+}
+
+footer{
+    padding: 20px 0 20px 0;
+    line-height: 30px;
+    text-align: center;
+    background: #e7e7e7;
+    border-radius: 5px;
+}
+
+footer span {
+    font-size: 20px;
+    color :#2e6da4;
+}
+
+#btn-logout {
+    float: right;
+    margin-top: 5px;
+}
+
+#btn-logout-hidden {
+    display: none;
+}
+
+
+/*PRODUCT_DETAIL*/
+
+.detailProduct {
+    width: 100%;
+    min-height:500px;
+    overflow: hidden;
+    color : #449d44;
+    position: relative;
+}
+
+.detailProduct img {
+    float: left;
+    width: 20%;
+    height: 200px;
+    margin: 20px 10% 20px 5%;
+    transition: all linear 0.2s;
+    animation: test 1s;
+}
+
+@keyframes test {
+    0% {  transform: translateX(-100%) rotate(-120deg); }
+    100% { transform: translateX(0px) rotate(0deg); }
+}
+.detailProduct .title span {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.detailProduct .title span {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    display: block;
+    padding-bottom: 10px;
+}
+.detailProduct .url {
+    display: block;
+    padding-bottom: 20px;
+}
+.detailProduct .category span {
+    display: inline-block;
+    color: #000;
+}
+.topic {
+    cursor: pointer;
+}
+.cartItemsHolder {
+    width: 70%;
+    float: left;
+}
+.cartItemsHolder form h3 {
+    text-align: center;
+    margin-top: 20px;
+    color : #00B7FF;
+}
+.cartItemsHolder form div {
+    width: 50%;
+    margin: 0 auto 10px auto;
+}
+.cartItemsHolder form .aboutOrder {
+    display: inline-block;
+    margin-left: 25%;
+    width: 41%;
+}
+.cartItemsHolder form .aboutOrder h4 {
+    display: inline-block;
+    margin-right: 5%;
+}
+
+.productInCart {
+    overflow: hidden;
+    display: inline-block;
+    width: 70%;
+    margin-top: 50px;
+}
+.productInCart img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.productInCart .productTitleCart {
+    display: inline-block;
+    width: 25%;
+}
+.productInCart .productPriceCart {
+    display: inline-block;
+    width: 20%;
+}
+.productInCart span {
+    display: inline-block;
+}
+.productInCart .quantity {
+    display: inline-block;
+    width: 20%;
+}
+.productInCart .total {
+    display: inline-block;
+    width: 20%;
+}
+
+
+.removeFromCart {
+    display : inline-block;
+    width: 20%;
+    margin-bottom: 40px !important;
+}
+
+.confirmOrder {
+    display: block!important;
+    width: 100px;
+    margin: 0 auto;
+}
+#ordersPage {
+    width: 70%;
+    float: left;
+    padding-left: 10px;
+    overflow: hidden;
+}
+.view-orders {
+    position:  absolute;
+    bottom : -33px;
+    right: 0;
+    padding: 1px 2px!important;
+    font-size: 10px!important;
+}
+.singleOrder {
+    width: 100%;
+    margin-top: 20px;
+    padding : 20px;
+    border: 1px solid #00B7FF;
+    margin-right: 3%;
+}
+.singleOrder:last-child {
+    margin-right: 0;
+}
+
